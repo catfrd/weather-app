@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#locationName {
+    font-size:30px
+}
+
+#description{ 
+    font-size: 25px;
+}
+
+#temp{
+    font-size: 35px;
+}
+.container{ 
+    border:2px;
+    width:400px;
+    text-align: center;
+    border-radius: 5px;
+    padding:10px;
+    box-shadow: 10px 10px 10px grey;
+    /* background: transparent; */
+    /* justify-content: center;*/
+    
+
+    align-content: center;
+    position: absolute;
+    top: 200px;
+    right:30px;
+    left: 30px;
+    z-index:1000;
+
+
+}
+
+#map { height:100vh;
+    position: relative;
+       }
